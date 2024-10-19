@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TechyNerd201/Text-Modifier/static/css/main.53be3411.css",
+    "main.js": "/TechyNerd201/Text-Modifier/static/js/main.904fc0c6.js",
+    "static/js/453.1dd8f2bc.chunk.js": "/TechyNerd201/Text-Modifier/static/js/453.1dd8f2bc.chunk.js",
+    "index.html": "/TechyNerd201/Text-Modifier/index.html",
+    "main.53be3411.css.map": "/TechyNerd201/Text-Modifier/static/css/main.53be3411.css.map",
+    "main.904fc0c6.js.map": "/TechyNerd201/Text-Modifier/static/js/main.904fc0c6.js.map",
+    "453.1dd8f2bc.chunk.js.map": "/TechyNerd201/Text-Modifier/static/js/453.1dd8f2bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53be3411.css",
+    "static/js/main.904fc0c6.js"
+  ]
+}
