@@ -3,19 +3,19 @@
 import './App.css';
 import { Navbar } from './components/navbar';
 import { TextForm } from './components/TextForm';
-import About from './components/About';
+// import About from './components/About';
 import Alert from './components/Alert';
 
 import React,{useState} from 'react'
 
 
-import { createRoot } from "react-dom/client";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-} from "react-router-dom";
+// import { createRoot } from "react-dom/client";
+// import {
+//   createBrowserRouter,
+//   RouterProvider,
+//   Route,
+//   Link,
+// } from "react-router-dom";
 
 
 
@@ -61,40 +61,40 @@ function App() {
 
        // routes
 
-    const router = createBrowserRouter([
-      {
-        path:"/",
-        element:<>
-        <Navbar dayLightColorSetting={ReturnProp()} showAlert={showAlert}  name ="Hello"/>
-        <TextForm headings="Enter the Text to Analyze:" ID="inputText"  showAlert={showAlert} dayLightColorSetting={ReturnProp()}/>
-        </>
-      },
-      {
-        path:'/about',
-        element:
-        <>
-          <Navbar dayLightColorSetting={ReturnProp()} showAlert={showAlert}  name ="Hello"/>
-          <About  dayLightColorSetting={ReturnProp()}/>
-        </>
+    // const router = createBrowserRouter([
+    //   {
+    //     path:"/",
+    //     element:<>
+    //     <Navbar dayLightColorSetting={ReturnProp()} showAlert={showAlert}  name ="Hello"/>
+    //     <TextForm headings="Enter the Text to Analyze:" ID="inputText"  showAlert={showAlert} dayLightColorSetting={ReturnProp()}/>
+    //     </>
+    //   },
+    //   {
+    //     path:'/about',
+    //     element:
+    //     <>
+    //       <Navbar dayLightColorSetting={ReturnProp()} showAlert={showAlert}  name ="Hello"/>
+    //       <About  dayLightColorSetting={ReturnProp()}/>
+    //     </>
         
-      }
-    ]);
+    //   }
+    // ]);
 
 
 
         return (
           <>   
-          <RouterProvider router={router} />  
+          {/* <RouterProvider router={router} />   */}
           
           
         
 
 
-             {/* <Navbar dayLightColorSetting={ReturnProp()} showAlert={showAlert}  name ="Hello"/> */}
+             <Navbar dayLightColorSetting={ReturnProp()} showAlert={showAlert}  name ="Text-Modifier"/>
             
-             {/* <Alert alert={alert} /> */}
+             <Alert alert={alert} />
             
-               {/* <TextForm headings="Enter the Text to Analyze:" ID="inputText"  showAlert={showAlert} dayLightColorSetting={ReturnProp()}/> */}
+               <TextForm headings="Enter the Text to Analyze:" ID="inputText"  showAlert={showAlert} dayLightColorSetting={ReturnProp()}/>
             
 
             {/* <About  dayLightColorSetting={ReturnProp()}/>  */}
