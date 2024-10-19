@@ -1,6 +1,9 @@
 .App {
   text-align: center;
+ 
 }
+
+
 
 .App-logo {
   height: 40vmin;
@@ -28,6 +31,9 @@
   color: #61dafb;
 }
 
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +41,94 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+/* Custom Styles */
+
+
+
+/* about us Styles */
+
+.about-us-dark-container {
+  background-color: #101010;
+  height:100vh;
+}
+
+.about-us-light-container{
+  background-color: rgb(246, 250, 253);
+  height:100vh;
+}
+
+.heading-light-container{
+  background-color: rgb(217, 242, 238); 
+}
+
+.heading-dark-container{
+  background-color: #282c34;
+  color:rgb(255, 246, 246);
+}
+
+.body-dark-container{
+  background-color: #282c34;
+  color:white;
+}
+
+.body-light-container{
+  background-color: white;
+  
+}
+
+
+/* navbar styles */
+
+
+.navbar-head-light-container{
+  background-color: rgb(24, 172, 154);
+}
+
+.navbar-head-dark-container{
+  background-color: rgba(1, 45, 81, 0.977);
+  color: white  ;
+}
+
+.navbar-body-dark-container{
+  color:rgb(255, 255, 255);
+}
+
+.navbar-body-light-container{
+  color:rgb(0, 0, 0);
+  
+}
+
+
+
+/* textform styles */
+
+.Textform-dark-container {
+  background-color: #101010;
+  height:100vh;
+  color:white;
+  padding-top: 2em;
+  
+}
+
+
+.Textform-light-container{
+  background-color: rgb(246, 250, 253);
+  height:100vh;
+  padding-top: 2em;
+}
+
+.Textform-dark-textbox{
+  background-color: darkgrey;
+}
+.Textform-light-textbox{
+  background-color: rgb(242, 240, 237);
+}
+
+.inputText{
+  overflow-wrap: break-word;
 }
